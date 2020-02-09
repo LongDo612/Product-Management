@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="open()">
+    <h2>Add New Product</h2>
+    <div id="addingSection">
+            <input id="add" placeholder="New Product">
+            <input type="submit" value="Add" class="button" onclick="addProduct()">
+    </div>
+    <h2>All Product</h2><br>
+    <div>
+        <table>
+            <tr>
+                <td><h4>Product Name</h4></td>
+                <td style="padding-left: 428px; color: red"><label id="product-number"></label></td>
+            </tr>
+        </table>
+
+        <table id="content">
+
+        </table>
+    </div>
+
+    <script src="product.js"></script>
+</body>
+</html>

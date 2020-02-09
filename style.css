@@ -1,0 +1,35 @@
+#addingSection {
+    background-color: #e0e0e0;
+    width: 600px;
+    height: 100px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    vertical-align: middle;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0ccf19;
+}
+
+#add{
+    height: 33px;
+    width: 440px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    vertical-align: middle;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0ccf19;
+    margin-left: 125px;
+}
